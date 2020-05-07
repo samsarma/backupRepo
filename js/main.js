@@ -28,7 +28,7 @@ $(document).ready(function () {
     $('.content-wrapper').addClass('showing');
   })
 
-  if (window.location.hash && window.location.hash == '#projects') {
+  if (window.location.hash && window.location.hash == '#portfolio') {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
 
@@ -41,7 +41,7 @@ $(document).ready(function () {
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
   })
 
-  $('.navigation-wrapper .projects-button').click(function () {
+  $('.navigation-wrapper .portfolio-button').click(function () {
     $('.navigation-wrapper').toggleClass('visible')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
   })
