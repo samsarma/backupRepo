@@ -1,5 +1,5 @@
-# Jekyll-Uno with Projects as Timeline
-A Jekyll Theme, based on the Uno-Theme with a list of projects as Timeline.
+# Jekyll-Uno with Portfolios as Timeline
+A Jekyll Theme, based on the Uno-Theme with a list of portfolios as Timeline.
 
 ## How does is look
 [Demo](http://thomas.zuehlke.family/)
@@ -27,9 +27,9 @@ Access via: [http://localhost:4000/](http://localhost:4000/)
   * removed RSS
   * removed Disqus
   * using a Timeline-Design instead of posts, therefore no pagination anymore
-* using Timeline ([CSS](https://github.com/le4ker/personal-jekyll-theme/blob/master/css/timeline.scss), [HTML](https://github.com/le4ker/personal-jekyll-theme/blob/master/_includes/timeline.html) ) from [{ Personal } Jekyll Theme](https://github.com/le4ker/personal-jekyll-theme) for a list of projects, but:
+* using Timeline ([CSS](https://github.com/le4ker/personal-jekyll-theme/blob/master/css/timeline.scss), [HTML](https://github.com/le4ker/personal-jekyll-theme/blob/master/_includes/timeline.html) ) from [{ Personal } Jekyll Theme](https://github.com/le4ker/personal-jekyll-theme) for a list of portfolios, but:
   * still with 3 layouts for different screen-width, but without images on small screens
-  * timeline information source is now `_data/projects.yaml`
+  * timeline information source is now `_data/portfolios.yaml`
   * always using the `timeline-inverted`-class, for text on the right side of the images
 * using [github_api.js](https://github.com/jarrekk/Jalpc/blob/master/static/js/github_api.js) from [Jalpc.](https://github.com/jarrekk/Jalpc), but:
   * changed the GitHub-URL for using with persons and organisations
