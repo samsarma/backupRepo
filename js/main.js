@@ -28,7 +28,7 @@ $(document).ready(function () {
     $('.content-wrapper').addClass('showing');
   })
 
-  if (window.location.hash && window.location.hash == '#projects') {
+  if (window.location.hash && window.location.hash == '#portfolio') {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
 
