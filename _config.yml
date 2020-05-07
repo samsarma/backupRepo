@@ -8,7 +8,7 @@ url: 'http://samsarma.github.io'
 
 baseurl: ''
 
-profilepic: '/images/logo.jpg'
+profilepic: '/images/logo.png'
 
 bkimage: '/images/bk1.jpg'
 
@@ -24,7 +24,7 @@ author:
 
   email: samsarma@gmail.com
 
-  twitter_username: samsarma
+  twitter_username: samatasarma
 
 #  facebook_username: joshgerdes
 
