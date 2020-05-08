@@ -5,19 +5,19 @@ robots: noindex
 
 <!--<div class="main-post-list">-->
 
-  <ul class="resume">
+  <ul class="portfolio">
     
     {% for project in site.data.portfolio %}
 
-      <li class="resume-inverted">
-        <div class="resume-image">
+      <li class="portfolio-inverted">
+        <div class="portfolio-image">
           <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
         </div>
-        <div class="resume-panel">
-          <div class="resume-heading">
+        <div class="portfolio-panel">
+          <div class="portfolio-heading">
             <h4><a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
           </div>
-          <div class="resume-body">
+          <div class="portfolio-body">
             {{ project.desc | markdownify }}
             <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
               <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
