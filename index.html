@@ -5,19 +5,19 @@ robots: noindex
 
 <!--<div class="main-post-list">-->
 
-  <ul class="timeline">
+  <ul class="resume">
     
     {% for project in site.data.portfolio %}
 
-      <li class="timeline-inverted">
-        <div class="timeline-image">
+      <li class="resume-inverted">
+        <div class="resume-image">
           <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
         </div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
+        <div class="resume-panel">
+          <div class="resume-heading">
             <h4><a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
           </div>
-          <div class="timeline-body">
+          <div class="resume-body">
             {{ project.desc | markdownify }}
             <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
               <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
@@ -35,18 +35,18 @@ robots: noindex
 
 
 
-<ul class="timeline">
+<ul class="resume">
     {% for project in site.data.resume %}
 
-      <li class="timeline-inverted">
-        <div class="timeline-image">
+      <li class="resume-inverted">
+        <div class="resume-image">
           <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
         </div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
+        <div class="resume-panel">
+          <div class="resume-heading">
             <h4><a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
           </div>
-          <div class="timeline-body">
+          <div class="resume-body">
             {{ project.desc | markdownify }}
             <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
               <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
@@ -59,9 +59,9 @@ robots: noindex
     {% endfor %}
    </ul>
     <!--
-    <li class="timeline-inverted">
-      <div class="timeline-image">
-        <img class="user-image" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
+    <li class="resume-inverted">
+      <div class="resume-image">
+        <img class="user-image" src="{{site.baseurl}}{{ site.resume-img }}" alt="">
       </div>
     </li> -->
 
